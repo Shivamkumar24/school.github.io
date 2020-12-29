@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    z-index: 950;
+    display: flex;
+    background: blanchedalmond;
+}
+.logo img{
+    width: 100px;
+    height: 95px;
+}
+.name{
+    width: 80%;
+}
+.name p{
+    padding: 10px;
+    font-size: 4rem;
+    font-weight: 800;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+}
+.First{
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: 45px;
+    position: fixed;
+    z-index: 980;
+    display: flex;
+    background: rgb(165, 104, 12);
+}
+.navigate{
+    padding-left: 30%;
+}
+.navigate .navigation{
+    position: relative;
+    z-index: 1000;
+    display: flex;
+}
+.navigate .navigation li{
+    list-style: none;
+    margin-top:15px;
+    margin-left: 40px;
+}
+.navigate .navigation li a{
+    color: blue;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.navigate .navigation li a:hover{
+    color: #fff;
+    font: bold;
+    text-decoration: underline;
+    transition-duration: 0.5s;
+}
+.Home{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(book.jpg);
+    background-size: cover;
+}
+.mid{
+    margin-top: 20%;
+    margin-left: 10%;
+}
+.mid #f1{
+    letter-spacing: 6px;
+    font-size: 7rem;
+    font-weight: 800;
+    color: #e100ff;
+}
+.mid #f2{
+    letter-spacing: 4px;
+    font-size: 4rem;
+    font-weight: 650;
+    color: #ff0055;
+}
+.mid p{
+    padding-top: 6px;
+    color: #000000;
+    font-size: 25px;
+}
+.btn{
+    padding: 15px 7px;
+    margin: 10px;
+    margin-left: 25%;
+    border-radius: 10px;
+    background-color: darksalmon;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: darksalmon;
+    color: #fff;
+    padding: 8px 20px;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+
+section{
+    padding: 85px;
+}
+.jjj{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.jjj .col{
+    position: relative;
+    width: 45%;
+}
+.About-Us .jjj .col .title{
+    background-color: bisque;
+    font-size: 3.5rem;
+    font-weight: 800;
+    width: 100%;
+    padding-top: 65px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.jjj .col p{
+    margin-top: 50px;
+    font-size: 18px;
+    padding-right: 30px;
+}
+.jjj .col-1 .img{
+    position: relative; 
+}
+.jjj .col-1 .img img{
+    width: 100%;
+    min-height: 300px;
+    padding-top: 165px;
+    object-fit: cover;
+}
+
+.Facilities .gggg .title-1{
+    background-color: bisque;
+    font-size: 3.5rem;
+    font-weight: 800;
+    width: 100%;
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+h4{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+.Facilities .gggg{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.Facilities .gggg .kkk, .play, .creativity, .library{
+    width: 250px;
+    margin: 25px;
+    border: 12px solid #fff;
+    box-shadow: 0 5px 33px rgba(0,0,0,0.08);
+}
+.Facilities .gggg .kkk, .play, .creativity, .library, .imgi{
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
+
+.Achievement .aaa .main{
+    background-color: bisque;
+    font-size: 3.5rem;
+    font-weight: 800;
+    width: 100%;
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+.Achievement .aaa h2{
+    font-size: 2.8rem;
+    font-weight: 600;
+    width: 100%;
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+.Achievement .aaa .main1{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.Achievement .aaa .main1 .Vikas, .Rahul, .Devnath{
+    width: 250px;
+    margin: 25px;
+    text-align: center;
+}
+
+
+.Contact-Us .main .main1{
+    background-color: bisque;
+    font-size: 3.5rem;
+    font-weight: 800;
+    width: 100%;
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
